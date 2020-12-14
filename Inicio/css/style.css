@@ -1,0 +1,24 @@
+body {
+    background:rgb(6, 33, 80);
+}
+
+.form-control , .form-control:focus{
+    outline:none !important;
+    outline-width: 1 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+
+    background:rgb(6, 33, 80);
+
+    border:none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #fff;
+    color:white;
+}
+
+.form-control::placeholder{
+    color:white;
+}
